@@ -1,11 +1,11 @@
 
 
 This archive contains the distribution Lingua-FRA-Nums2Words,
-version 0.044:
+version 0.0577:
 
-  Nums2Words converts numbers to French words.
+  Number 2 word conversion in FRA.
 
-This software is copyright (c) 2012 by Fabien POTENCIER.
+This software is copyright (c) 2013 by Fabien POTENCIER.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

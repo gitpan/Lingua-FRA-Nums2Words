@@ -1,7 +1,7 @@
 # For Emacs: -*- mode:cperl; mode:folding -*-
 
 package Lingua::FRA::Nums2Words;
-# ABSTRACT: Nums2Words converts numbers to French words.
+# ABSTRACT: Number 2 word conversion in FRA.
 
 # {{{ use block
 
@@ -14,8 +14,7 @@ use Perl6::Export::Attrs;
 # }}}
 # {{{ variables declaration
 
-my($ver)      = ('$Rev: 440 $' =~ m{(\d+)}xms);
-our $VERSION = $ver / 10_000;
+our $VERSION = 0.0577;
 
 my @major = (
         "",
@@ -195,7 +194,7 @@ Lingua::FRA::Nums2Words - Converts numbers to French words
 
 =head1 VERSION
 
-version 0.044
+version 0.0577
 
 =head1 SYNOPSIS
 
@@ -210,7 +209,7 @@ version 0.044
 
 =head1 DESCRIPTION
 
-Nums2Words converts numbers to French words.
+Number 2 word conversion in FRA.
 
 =head1 FUNCTIONS
 

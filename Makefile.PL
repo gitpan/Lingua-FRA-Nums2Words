@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Nums2Words converts numbers to French words.",
+  "ABSTRACT" => "Number 2 word conversion in FRA.",
   "AUTHOR" => "Fabien POTENCIER <fabpot\@cpan.org>",
   "BUILD_REQUIRES" => {
     "Test::More" => 0
@@ -27,7 +27,7 @@ my %WriteMakefileArgs = (
     "utf8" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.044",
+  "VERSION" => "0.0577",
   "test" => {
     "TESTS" => "t/*.t"
   }
