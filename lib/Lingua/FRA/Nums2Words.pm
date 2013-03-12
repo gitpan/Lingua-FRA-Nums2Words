@@ -5,6 +5,8 @@ package Lingua::FRA::Nums2Words;
 
 # {{{ use block
 
+use 5.10.1;
+
 use strict;
 use warnings;
 use utf8;
@@ -14,7 +16,7 @@ use Perl6::Export::Attrs;
 # }}}
 # {{{ variables declaration
 
-our $VERSION = 0.0577;
+our $VERSION = 0.0682;
 
 my @major = (
         "",
@@ -194,7 +196,7 @@ Lingua::FRA::Nums2Words - Converts numbers to French words
 
 =head1 VERSION
 
-version 0.0577
+version 0.0682
 
 =head1 SYNOPSIS
 
